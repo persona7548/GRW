@@ -32,7 +32,7 @@ public class EnemyCtrl : MonoBehaviour
     {
         if (collision.collider.tag == "bullet")
         {
-            Debug.Log("맞았읍니다..");
+            Debug.Log("damage");
             EnemyHP -= 1;
             if (EnemyHP == 0)
             {
