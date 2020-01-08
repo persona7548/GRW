@@ -1,5 +1,7 @@
 # PuzzleGame_Unity
 
+https://gamanities.tistory.com/30
+
 
 ## BulletCtrl.cs	
 
