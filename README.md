@@ -2,34 +2,29 @@
 
 https://gamanities.tistory.com/30
 
-
-## BulletCtrl.cs	
-
-## BulletGenerator.cs
-
-마우스 클릭시 Bullet prefab을 생성하는 부분
-
-## EndingText.cs	
-
-스테이지 클리어시 생성되는 텍스트
-
-
-## PlayerCtrl.cs
-
-플레이어 캐릭터의 움직임을 담당하는 부분
-
-## EnemyCtrl.cs
-
-PlayerCtrl 기반 코드
-
-
-## FollowCam.cs	
-
-1인칭 시점 카메라
-
 ## GameDirector.cs
 
 게임 전체를 담당하는 부분
+
+## BulletCtrl.cs	
+
+총알에 가해지는 힘 조절
+
+## BulletGenerator.cs
+
+마우스 클릭시 Bullet prefab을 생성
+
+## PlayerCtrl.cs
+
+플레이어 캐릭터의 움직임을 담당
+
+## EnemyCtrl.cs
+
+PlayerCtrl 기반 적의 움직임 구현
+
+## FollowCam.cs	
+
+1인칭 시점 카메라(필요에 따라 사용)
 
 ## Portal.cs
 
@@ -41,5 +36,7 @@ PlayerCtrl 기반 코드
 밟으면 90도 회전하는 오브젝트
 (차후 Object.cs의 클래스로 구현 필요)
 
-## UIManager.cs
+## EndingText.cs	
+
+게임 클리어시 소요 시간, 죽은 횟수등을 출력
 
